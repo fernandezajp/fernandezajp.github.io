@@ -5,22 +5,26 @@
 		<link rel="stylesheet" type="text/css" href="css/site.css" />
 		<link rel="stylesheet" type="text/css" href="css/menu.css" />
 		<link rel="stylesheet" type="text/css" href="css/leftmenu.css" />
+		<link rel="stylesheet" type="text/css" href="css/boxeffect.css" />
 		<script type="text/javascript">
 			var language = window.navigator.userLanguage || window.navigator.language;
 		</script>
 		<!--                    jquery                  -->
-        <script type="text/javascript" src="./js/jQuery/2.1.0/jquery.min.js"></script>
-        <script type="text/javascript" src="./js/jQuery/jQuery-tools/jquery.tools.min"></script>
+        <script type="text/javascript" src="js/jQuery/2.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jQuery/jQuery-tools/jquery.tools.min"></script>
         <!--                    99lime                  -->
-        <script type="text/javascript" src=".js//99Lime/0.94/js/kickstart.js"></script>
-        <link rel="stylesheet" href="./js/99Lime/0.94/css/kickstart.css" media="all" />
-        <link rel="stylesheet" href="./js/99Lime/0.94/style.css" media="all" />
+        <script type="text/javascript" src="js/99Lime/0.94/js/kickstart.js"></script>
+        <link rel="stylesheet" href="js/99Lime/0.94/css/kickstart.css" media="all" />
+        <link rel="stylesheet" href="js/99Lime/0.94/style.css" media="all" />
+        <!--                   satelite                 -->
+        <script type="text/javascript" src="js/satellite.js"></script>
+        <!--                    cesium                  -->
 	</head>
 	<body>
 		<div class='backheader'></div>
 		<div class='header'>
 			<img src="images/logo.png" style="position: absolute; left: 15px; top: 15px">
-			<span class='title'>El Laboratorio de Al</span>
+			<span class='title'>El Laboratorio de Alvaro</span>
 		</div>
 		<div class='topmenu'>
 			<ul>
@@ -42,16 +46,25 @@
 			</ul>
 		</div>
 		<div class='leftmenu'>
-			<ul class="menu vertical">
-				<li><a href="">BioMedicina</a></li>
-				<li><a href="">Impresion3D</a></li>
-				<li><a href="">Sistemas Geograficos</a></li>
-				<li><a href="">Petroleo y Gas</a></li>
-				<li><a href="">Ciencia y Tecnologia</a></li>
+			<ul class='menu vertical'>
+				<li><a href='./index.html'>BioMedicina</a></li>
+				<li><a href='./index.html'>Impresion3D</a></li>
+				<li><a href='./Satellite/satellite.html'>Sistemas Geograficos</a></li>
+				<li><a href='./index.html'>Petroleo y Gas</a></li>
+				<li><a href='./index.html'>Ciencia y Tecnologia</a></li>
 			</ul>
 		</div>
 		<div class='content'>
-			contenido
+			<!--<button onclick="animateSat()">animateSat</button>-->
+			<br>
+			<span id="splat"></span>
+			<br>
+			<span id="splon"></span>
+			<br>
+			<span id="spalt"></span>
+			<br>
+			<span id="spspd"></span>
+			<br>
 		</div>
 	</body>
 </html>
