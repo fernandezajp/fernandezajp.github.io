@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Layout</title>
+		<title>El laboratorio de Alvaro</title>
 		<link rel="stylesheet" type="text/css" href="../css/site.css" />
 		<link rel="stylesheet" type="text/css" href="../css/menu.css" />
 		<link rel="stylesheet" type="text/css" href="../css/leftmenu.css" />
@@ -9,16 +9,13 @@
 		<script type="text/javascript">
 			var language = window.navigator.userLanguage || window.navigator.language;
 		</script>
-		<!--                    jquery                  -->
         <script type="text/javascript" src="../js/jQuery/2.1.0/jquery.min.js"></script>
         <script type="text/javascript" src="../js/jQuery/jQuery-tools/jquery.tools.min"></script>
-        <!--                    99lime                  -->
         <script type="text/javascript" src="../js/99Lime/0.94/js/kickstart.js"></script>
         <link rel="stylesheet" href="../js/99Lime/0.94/css/kickstart.css" media="all" />
         <link rel="stylesheet" href="../js/99Lime/0.94/style.css" media="all" />
-        <!--                   satelite                 -->
         <script type="text/javascript" src="../js/satellite.js"></script>
-         <script>
+        <script>
 			var _0x18d3=["\x62\x6F\x64\x79","\x64\x6F\x63\x75\x6D\x65\x6E\x74\x45\x6C\x65\x6D\x65\x6E\x74","\x63\x6C\x69\x65\x6E\x74\x48\x65\x69\x67\x68\x74","\x68\x65\x69\x67\x68\x74","\x2E\x68\x65\x61\x64\x65\x72","\x2E\x74\x6F\x70\x6D\x65\x6E\x75","\x23\x73\x61\x74\x65\x6C\x6C\x69\x74\x65\x74\x65\x78\x74","\x23\x69\x66\x72\x6D\x43\x65\x73\x69\x75\x6D","\x72\x65\x61\x64\x79"];$(document)[_0x18d3[8]](function (){var _0x2243x1=document[_0x18d3[0]],_0x2243x2=document[_0x18d3[1]];var _0x2243x3=document[_0x18d3[1]][_0x18d3[2]]-23-$(_0x18d3[4])[_0x18d3[3]]()-$(_0x18d3[5])[_0x18d3[3]]();$(_0x18d3[6])[_0x18d3[3]](_0x2243x3);$(_0x18d3[7])[_0x18d3[3]](_0x2243x3);} );
 		</script>
 	</head>
@@ -30,37 +27,47 @@
 		</div>
 		<div class='topmenu'>
 			<ul>
-				<li>
-					<a href=''><span>tutoriales</span></a>
-				</li>
-				<li>
-					<a href=''><span>investigacion</span></a>
-				</li>
-				<li>
-					<a href=''><span>software</span></a>
-				</li>
-				<li>
-					<a href=''><span>experimentos</span></a>
-				</li>
-				<li>
-					<a href=''><span>perfil</span></a>
-				</li>
-			</ul>
+		        <li>
+		          <a href="../Tutoriales/index.html"><span>tutoriales</span></a>
+		        </li>
+		        <li>
+		          <a href="../Investigacion/index.html"><span>investigaci&oacute;n<sub>(1)</sub></span></a>
+		        </li>
+		        <li>
+		          <a href="../Software/index.html"><span>software</span></a>
+		        </li>
+		        <li>
+		          <a href="../Experimentos/index.html"><span>experimentos</span></a>
+		        </li>
+		        <li>
+		          <a href="../profile.html"><span>perfil</span></a>
+		        </li>
+	     	</ul>
 		</div>
 		<div class='leftmenu'>
-			<ul class='menu vertical'>
-				<li><a href='../index.html'>BioMedicina</a></li>
-				<li><a href='../index.html'>Impresion3D</a></li>
-				<li><a href='../Satellite/satellite.html'>Sistemas Geograficos</a></li>
-				<li><a href='../index.html'>Petroleo y Gas</a></li>
-				<li><a href='../index.html'>Ciencia y Tecnologia</a></li>
-			</ul>
+			<ul class="menu vertical">
+		        <li>
+		          <a href="../Investigacion/index.html">BioMedicina</a>
+		        </li>
+		        <li>
+		          <a href="../Investigacion/index.html">Impresion3D</a>
+		        </li>
+		        <li>
+		          <a href="../Investigacion/sig.html">Sistemas Geograficos<sub>(1)</sub></a>
+		        </li>
+		        <li>
+		          <a href="../Investigacion/index.html">Petroleo y Gas</a>
+		        </li>
+		        <li>
+		          <a href="../Investigacion/index.html">Ciencia y Tecnologia</a>
+		        </li>
+		     </ul>
 		</div>
 		<div class='content'>
 			<div class="col_6">
 				<div id='satellitetext' width='100%' style='border: 0px solid #000;overflow: auto;'>
-					<h5>Satelite Miranda.</h5>
-					<p>Presione el boton para iniciar el experimento.
+					<h5>Sat&eacute;lite Miranda.</h5>
+					<p>Presione el bot&oacute;n para iniciar el experimento.
 						<button class="small" onclick="loadData();setInterval('loadData()',30*60*1000);setInterval('animateSat()',1*1000);">
 							inicio
 						</button>
@@ -90,7 +97,6 @@
 			<div class="col_6">
 				<iframe id='ifrmCesium' width='100%' src='./webglobe.html' frameborder='0'></iframe>
 			</div>
-			<!--<div class="mediumsize effect2"></div>-->
 		</div>
 	</body>
 </html>

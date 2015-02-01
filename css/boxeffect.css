@@ -5,6 +5,16 @@
   margin:40px auto;
 }
 
+.item {
+  width:80%;
+  height:160px;
+  padding: 10px;
+  border: 5px #50adf1 solid;
+  background:#FFF;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
 .effect2
 {
     position:relative;       
