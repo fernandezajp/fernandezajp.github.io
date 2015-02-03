@@ -1,1 +1,159 @@
-var _0xd30a=["\x49\x53\x53","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x6E\x32\x79\x6F\x2E\x63\x6F\x6D\x2F\x73\x61\x74\x2F\x77\x67\x74\x2E\x70\x68\x70\x3F\x73\x3D","\x26\x72\x6B\x3D","\x72\x61\x6E\x64\x6F\x6D","\x70\x61\x72\x73\x65","\x26\x63\x61\x6C\x6C\x62\x61\x63\x6B\x3D\x3F","\x69\x64","\x6C\x61\x74","\x6C\x6E\x67","\x61\x6C\x74","\x73\x70","\x63\x61\x6D\x65\x72\x61\x74\x6F\x56\x52\x53\x53\x31","\x63\x6F\x6E\x74\x65\x6E\x74\x57\x69\x6E\x64\x6F\x77","\x69\x66\x72\x6D\x43\x65\x73\x69\x75\x6D","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x61\x64\x64\x56\x52\x53\x53\x31","\x43\x65\x73\x69\x75\x6D","\x65\x6C\x6C\x69\x70\x73\x6F\x69\x64","\x6D\x6F\x76\x65\x56\x52\x53\x53\x31","\x66\x72\x6F\x6D\x44\x65\x67\x72\x65\x65\x73","\x43\x61\x72\x74\x6F\x67\x72\x61\x70\x68\x69\x63","\x63\x61\x72\x74\x6F\x67\x72\x61\x70\x68\x69\x63\x54\x6F\x43\x61\x72\x74\x65\x73\x69\x61\x6E","\x6E\x6F\x72\x74\x68\x45\x61\x73\x74\x44\x6F\x77\x6E\x54\x6F\x46\x69\x78\x65\x64\x46\x72\x61\x6D\x65","\x54\x72\x61\x6E\x73\x66\x6F\x72\x6D\x73","\x66\x72\x6F\x6D\x54\x72\x61\x6E\x73\x6C\x61\x74\x69\x6F\x6E","\x4D\x61\x74\x72\x69\x78\x34","\x6D\x75\x6C\x74\x69\x70\x6C\x79","\x6D\x6F\x64\x65\x6C\x4D\x61\x74\x72\x69\x78","\x56\x52\x53\x53\x31\x72\x65\x63\x74\x61\x6E\x67\x75\x6C\x61\x72\x53\x65\x6E\x73\x6F\x72","","\x26\x75\x61\x72\x72\x3B","\x26\x64\x61\x72\x72\x3B","\x74\x6F\x46\x69\x78\x65\x64","\x74\x65\x78\x74","\x23\x73\x70\x6C\x61\x74","\x23\x73\x70\x6C\x6F\x6E","\x23\x73\x70\x61\x6C\x74","\x23\x73\x70\x73\x70\x64","\x73\x74\x61\x72\x74","\x74\x6F\x47\x4D\x54\x53\x74\x72\x69\x6E\x67","\x73\x74\x65\x70","\x6E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x70\x6F\x73","\x64","\x70\x75\x73\x68","\x7C","\x73\x70\x6C\x69\x74","\x61\x62\x73","\x67\x65\x74\x4A\x53\x4F\x4E","\x66\x6C\x6F\x6F\x72","\x6C\x61\x74\x6C\x6E\x67","\x61\x6E\x69\x6D\x61\x74\x65\x53\x61\x74\x28\x29","\x50\x49","\x73\x69\x6E","\x63\x6F\x73","\x73\x71\x72\x74","\x61\x74\x61\x6E\x32"];var sid=38782;var lat;var lng;var step;var counter=0;var satname=_0xd30a[0];var url=_0xd30a[1]+sid+_0xd30a[2]+eval(Math[_0xd30a[3]]()*Date[_0xd30a[4]]( new Date()))+_0xd30a[5];var data;var dArray= new Array();var altitude;var sunOverlay;var dayNightOverlay;function ObjectPosition(_0x7ee2xe,_0x7ee2xf,_0x7ee2x10,_0x7ee2x11,_0x7ee2x12){this[_0xd30a[6]]=_0x7ee2xe;this[_0xd30a[7]]=_0x7ee2xf;this[_0xd30a[8]]=_0x7ee2x10;this[_0xd30a[9]]=_0x7ee2x11;this[_0xd30a[10]]=_0x7ee2x12;} ;function addVRSS1(lat,lng,_0x7ee2x14){document[_0xd30a[14]](_0xd30a[13])[_0xd30a[12]][_0xd30a[11]](lat,lng,_0x7ee2x14);document[_0xd30a[14]](_0xd30a[13])[_0xd30a[12]][_0xd30a[15]](lat,lng,_0x7ee2x14);} ;function moveVRSS1(lat,lng,_0x7ee2x14){var _0x7ee2x16=document[_0xd30a[14]](_0xd30a[13])[_0xd30a[12]][_0xd30a[16]];var _0x7ee2x17=document[_0xd30a[14]](_0xd30a[13])[_0xd30a[12]][_0xd30a[17]];document[_0xd30a[14]](_0xd30a[13])[_0xd30a[12]][_0xd30a[18]](lat,lng,_0x7ee2x14);var _0x7ee2x18=_0x7ee2x16[_0xd30a[23]][_0xd30a[22]](_0x7ee2x17[_0xd30a[21]](_0x7ee2x16[_0xd30a[20]][_0xd30a[19]](lng,lat)));_0x7ee2x18=_0x7ee2x16[_0xd30a[25]][_0xd30a[26]](_0x7ee2x18,_0x7ee2x16[_0xd30a[25]][_0xd30a[24]]( new _0x7ee2x16.Cartesian3(0.0,0.0,-_0x7ee2x14)),_0x7ee2x18);document[_0xd30a[14]](_0xd30a[13])[_0xd30a[12]][_0xd30a[28]][_0xd30a[27]]=_0x7ee2x18;} ;function animateSat(){var _0x7ee2x1a=getInterpolatedData();if(_0x7ee2x1a!=null){var _0x7ee2x1b=_0x7ee2x1a[_0xd30a[7]];var _0x7ee2x1c=_0x7ee2x1a[_0xd30a[8]];var _0x7ee2x1d=_0x7ee2x1a[_0xd30a[9]];var _0x7ee2x1e=_0x7ee2x1a[_0xd30a[10]];var _0x7ee2x1f=_0xd30a[29];if(_0x7ee2x1d>altitude){_0x7ee2x1f=_0xd30a[30];} else {_0x7ee2x1f=_0xd30a[31];} ;altitude=_0x7ee2x1d;$(_0xd30a[34])[_0xd30a[33]](_0x7ee2x1b[_0xd30a[32]](2));$(_0xd30a[35])[_0xd30a[33]](_0x7ee2x1c[_0xd30a[32]](2));$(_0xd30a[36])[_0xd30a[33]](_0x7ee2x1d[_0xd30a[32]](2));$(_0xd30a[37])[_0xd30a[33]](_0x7ee2x1e[_0xd30a[32]](2));moveVRSS1(_0x7ee2x1b,_0x7ee2x1c,_0x7ee2x1d*1000);} ;counter++;} ;function loadData(){jQuery[_0xd30a[49]](url,function (data){var _0x7ee2x21=parseInt(data[_0xd30a[38]]);var _0x7ee2x22;var _0x7ee2x23= new Date();var _0x7ee2x24=_0x7ee2x23[_0xd30a[39]]();var _0x7ee2x25=Date[_0xd30a[4]](_0x7ee2x24)/1000;var _0x7ee2x26= new Array();step=parseInt(data[_0xd30a[40]]);satname=data[_0xd30a[41]];for(var _0x7ee2x27=0;_0x7ee2x27<data[_0xd30a[43]][_0xd30a[42]];_0x7ee2x27++){_0x7ee2x26[_0xd30a[45]](data[_0xd30a[43]][_0x7ee2x27][_0xd30a[44]]);} ;for(var _0x7ee2x27=_0x7ee2x21;_0x7ee2x27<_0x7ee2x26[_0xd30a[42]];_0x7ee2x27++){var _0x7ee2x28=_0x7ee2x26[_0x7ee2x27][_0xd30a[47]](_0xd30a[46]);if(Math[_0xd30a[48]](_0x7ee2x25-parseInt(_0x7ee2x28[3]))<step){_0x7ee2x22=_0x7ee2x27;break ;} ;} ;dArray= new Array();for(var _0x7ee2x27=_0x7ee2x22;_0x7ee2x27<_0x7ee2x26[_0xd30a[42]];_0x7ee2x27++){var _0x7ee2x28=_0x7ee2x26[_0x7ee2x27][_0xd30a[47]](_0xd30a[46]);dArray[_0x7ee2x27-_0x7ee2x22]= new ObjectPosition(sid,_0x7ee2x28[0],_0x7ee2x28[1],parseFloat(_0x7ee2x28[2]),parseFloat(_0x7ee2x28[4]));} ;addVRSS1(dArray[0][_0xd30a[7]]*1,dArray[0][_0xd30a[8]]*1,dArray[0][_0xd30a[9]]*1000);} );} ;function getInterpolatedData(){var _0x7ee2x2a=Math[_0xd30a[50]](counter/step);if((dArray[_0xd30a[42]]!=0)&&(dArray[_0xd30a[42]]-2>_0x7ee2x2a)){if(Math[_0xd30a[48]]((dArray[_0x7ee2x2a+1][_0xd30a[8]])-(dArray[_0x7ee2x2a][_0xd30a[8]]))>300){if((dArray[_0x7ee2x2a+1][_0xd30a[51]])[_0xd30a[8]]()<0){var _0x7ee2x2b=(parseFloat(dArray[_0x7ee2x2a+1][_0xd30a[8]])+360-parseFloat(dArray[_0x7ee2x2a][_0xd30a[8]]))/step;} else {var _0x7ee2x2b=(parseFloat(dArray[_0x7ee2x2a+1][_0xd30a[8]])-360-parseFloat(dArray[_0x7ee2x2a][_0xd30a[8]]))/step;} ;} else {var _0x7ee2x2b=(parseFloat(dArray[_0x7ee2x2a+1][_0xd30a[8]])-parseFloat(dArray[_0x7ee2x2a][_0xd30a[8]]))/step;} ;var _0x7ee2x2c=(parseFloat(dArray[_0x7ee2x2a+1][_0xd30a[7]])-parseFloat(dArray[_0x7ee2x2a][_0xd30a[7]]))/step;var _0x7ee2x2d=(dArray[_0x7ee2x2a+1][_0xd30a[9]]-dArray[_0x7ee2x2a][_0xd30a[9]])/step;var _0x7ee2x2e=(dArray[_0x7ee2x2a+1][_0xd30a[10]]-dArray[_0x7ee2x2a][_0xd30a[10]])/step;var _0x7ee2x2f=_0x7ee2x2c*(counter%step)+parseFloat(dArray[_0x7ee2x2a][_0xd30a[7]]);var _0x7ee2x30=_0x7ee2x2b*(counter%step)+parseFloat(dArray[_0x7ee2x2a][_0xd30a[8]]);var _0x7ee2x31=_0x7ee2x2d*(counter%step)+dArray[_0x7ee2x2a][_0xd30a[9]];var _0x7ee2x32=getSpeed(_0x7ee2x2f,_0x7ee2x2c,_0x7ee2x2b,_0x7ee2x31);var _0x7ee2x33= new ObjectPosition(sid,_0x7ee2x2f,_0x7ee2x30,_0x7ee2x31,_0x7ee2x32);return _0x7ee2x33;} else {if(dArray[_0xd30a[42]]-2>_0x7ee2x2a){loadData();counter=0;setInterval(_0xd30a[52],1000);} ;} ;} ;function getSpeed(_0x7ee2x35,_0x7ee2x36,_0x7ee2x37,_0x7ee2x38){var _0x7ee2x2c=_0x7ee2x36*Math[_0xd30a[53]]/180;var _0x7ee2x39=_0x7ee2x37*Math[_0xd30a[53]]/180;var _0x7ee2x3a=_0x7ee2x35*Math[_0xd30a[53]]/180;var _0x7ee2x3b=(_0x7ee2x35+_0x7ee2x36)*Math[_0xd30a[53]]/180;var _0x7ee2xe=Math[_0xd30a[54]](_0x7ee2x2c/2)*Math[_0xd30a[54]](_0x7ee2x2c/2)+Math[_0xd30a[55]](_0x7ee2x3a)*Math[_0xd30a[55]](_0x7ee2x3b)*Math[_0xd30a[54]](_0x7ee2x39/2)*Math[_0xd30a[54]](_0x7ee2x39/2);var _0x7ee2x10=2*Math[_0xd30a[57]](Math[_0xd30a[56]](_0x7ee2xe),Math[_0xd30a[56]](1-_0x7ee2xe));var _0x7ee2x3c=(_0x7ee2x38+6378.135)*_0x7ee2x10;return _0x7ee2x3c;} ;
+var sid = 38782;
+var lat;
+var lng;
+var step;
+var counter=0;
+var satname='ISS';
+var url = 'http://www.n2yo.com/sat/wgt.php?s='+sid+'&rk='+eval(Math.random()*Date.parse(new Date()))+'&callback=?';
+var data;
+var dArray = new Array();
+var altitude;
+var sunOverlay;
+var dayNightOverlay;
+
+function ObjectPosition(a,b,c,d,e)
+{
+	this.id=a;
+	this.lat=b;
+	this.lng=c;
+	this.alt=d;
+	this.sp=e;
+}
+
+function addVRSS1(lat, lng, alt)
+{
+	document.getElementById('ifrmCesium').contentWindow.cameratoVRSS1(lat, lng, alt);
+	document.getElementById('ifrmCesium').contentWindow.addVRSS1(lat, lng, alt);
+}
+
+function moveVRSS1(lat, lng, alt)
+{
+	var Cesium = document.getElementById('ifrmCesium').contentWindow.Cesium;
+	var ellipsoid = document.getElementById('ifrmCesium').contentWindow.ellipsoid;
+
+	document.getElementById('ifrmCesium').contentWindow.moveVRSS1(lat, lng, alt);
+
+	var modelMatrix = Cesium.Transforms.northEastDownToFixedFrame(
+                ellipsoid.cartographicToCartesian(Cesium.Cartographic.fromDegrees(lng, lat)));
+        modelMatrix = Cesium.Matrix4.multiply(
+                modelMatrix,
+                Cesium.Matrix4.fromTranslation(new Cesium.Cartesian3(0.0, 0.0, -alt)),
+                modelMatrix);
+    document.getElementById('ifrmCesium').contentWindow.VRSS1rectangularSensor.modelMatrix = modelMatrix;
+}
+
+function animateSat()
+{
+	var currPos = getInterpolatedData();
+
+	if (currPos != null)
+	{
+		var clat = currPos.lat;
+		var clng = currPos.lng;
+		var calt = currPos.alt;
+		var csp = currPos.sp;
+
+		var dir = "";
+		if (calt>altitude) 
+			dir = "&uarr;";
+		else 
+			dir = "&darr;";
+		altitude = calt;
+		
+		$("#splat").text(clat.toFixed(2));
+		$("#splon").text(clng.toFixed(2));
+		$("#spalt").text(calt.toFixed(2));
+		$("#spspd").text(csp.toFixed(2));
+
+		moveVRSS1(clat,clng,calt*1000);
+	}
+	counter++;
+}
+
+function loadData()
+{
+	jQuery.getJSON(url, function(data) {
+		var startPoint = parseInt(data.start);
+		var startPosition;
+		var currentTime = new Date()
+		var dd=currentTime.toGMTString();
+		var cUTCTime=Date.parse(dd)/1000;
+		var txtArray = new Array();
+
+		step = parseInt(data.step);
+		satname = data.name;
+
+		for (var i=0;i<data.pos.length;i++)
+			txtArray.push(data.pos[i].d);
+
+		for (var i=startPoint;i<txtArray.length;i++)
+		{
+			var coord = txtArray[i].split("|");
+			if (Math.abs(cUTCTime-parseInt(coord[3]))<step)
+			{
+				startPosition=i;
+				break;
+			}
+		}
+
+		dArray = new Array(); 
+		for (var i=startPosition;i<txtArray.length;i++)
+		{
+			var coord = txtArray[i].split("|");
+			dArray[i-startPosition] = new ObjectPosition(sid,coord[0],coord[1],parseFloat(coord[2]),parseFloat(coord[4]));
+		}
+		
+		addVRSS1(dArray[0].lat*1,dArray[0].lng*1,dArray[0].alt*1000);
+	});
+}
+
+function getInterpolatedData()
+{
+	var interval = Math.floor(counter/step);
+	if ((dArray.length !=0)&&(dArray.length-2>interval))
+	{
+		if(Math.abs((dArray[interval+1].lng) - (dArray[interval].lng))>300)
+		{
+			if ((dArray[interval+1].latlng).lng() < 0) 
+			{
+				var dlng = (parseFloat(dArray[interval+1].lng) + 360 - parseFloat(dArray[interval].lng))/step;
+			}
+			else
+			{
+				var dlng = (parseFloat(dArray[interval+1].lng) - 360 - parseFloat(dArray[interval].lng))/step;
+			}
+		}
+		else
+		{
+			var dlng = (parseFloat(dArray[interval+1].lng) - parseFloat(dArray[interval].lng))/step;
+		}
+		var dlat = (parseFloat(dArray[interval+1].lat) - parseFloat(dArray[interval].lat))/step;
+		var dalt = (dArray[interval+1].alt - dArray[interval].alt)/step;
+		var dsp = (dArray[interval+1].sp - dArray[interval].sp)/step;
+		var plat = dlat*(counter%step)+parseFloat(dArray[interval].lat);
+		var plng = dlng*(counter%step)+parseFloat(dArray[interval].lng);
+		var palt = dalt*(counter%step)+dArray[interval].alt;
+		var psp = getSpeed(plat, dlat, dlng, palt);
+
+		var iObject = new ObjectPosition(sid,plat,plng,palt,psp);
+		return iObject;
+	}
+	else if (dArray.length-2>interval)
+	{
+		loadData();
+		counter=0;
+		setInterval ("animateSat()", 1000);		
+	}
+}
+
+function getSpeed(x1, dx, dy, h)
+{
+	var dlat=dx*Math.PI/180;
+	var dlon=dy*Math.PI/180;
+	var lat1=x1*Math.PI/180;
+	var lat2=(x1+dx)*Math.PI/180;
+	var a = Math.sin(dlat/2) * Math.sin(dlat/2) + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dlon/2) * Math.sin(dlon/2); 
+	var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+	var speed = (h + 6378.135) * c;
+	return speed;
+}
