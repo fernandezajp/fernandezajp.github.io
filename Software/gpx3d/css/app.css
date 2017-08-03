@@ -1,0 +1,38 @@
+#icon {
+    position: relative;
+    top: 5px;
+    left: 10px
+}
+
+#mapContainer {
+    position: absolute;
+}
+
+#floatingPanel {
+    position: absolute;
+    z-index: 900;
+    top: 50px;
+    right: 12px;
+    width: 300px;
+    margin: 0px;
+}
+
+#floatingPlayPanel {
+    position: absolute;
+    z-index: 900;
+    left: 12px;
+    margin: 0px;
+}
+
+#floatingSpeedPanel {
+    position: absolute;
+    z-index: 900;
+    margin: 0px;
+}
+
+#speedwidget {
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+}

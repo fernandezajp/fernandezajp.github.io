@@ -1,0 +1,40 @@
+#title {
+    color: #fff;
+}
+
+#subtitle {
+    position: relative;
+    left: -120px;
+    top: 15px;
+    font-size: 0.8em;
+}
+
+#leftpanel {
+    overflow: auto;
+    float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-right: 1px !important;
+}
+
+#leftpanel > div {
+    padding: 9px 10px;
+    font-size: 0.9em;
+    border-bottom: 1px dotted #ddd;
+    text-align: left;
+    cursor: pointer;
+    background: #fff;
+}
+
+#rightpanel {
+    background: #f8f8f8;
+    overflow: auto;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+}

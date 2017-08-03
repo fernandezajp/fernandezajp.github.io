@@ -1,0 +1,39 @@
+.navbar {
+	background: #3398CC;
+}
+
+.navbar a {
+    font-family: 'Klinic Slab Book';
+    font-size: 19px;
+}
+
+.navbar ul {
+    display: block;
+}
+
+.navbar li a {
+    padding: 1.3em 1.3em;
+    text-transform: initial;
+    color: white;
+}
+
+.navbar li span {
+    display: inline-block;
+    color: #efefef;
+    padding: 2em 1.3em 1em 0em;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-size: 1.2em;
+}
+
+.navbar li img {
+    display: inline-block;
+    padding: 0.4em 0.4em;
+    line-height: 100%;
+}
+
+/* offset del button bar */
+ul.button-bar {
+    top: -5px;
+}

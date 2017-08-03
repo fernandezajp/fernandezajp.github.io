@@ -1,0 +1,103 @@
+html {
+	overflow: hidden;
+}
+
+body {
+    background:#eee;
+}
+
+a, label {
+    cursor: default;
+}
+
+pre {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.rounded {
+    background: red;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 1px;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.shadow {
+    box-shadow:         0px 0px 8px 0px rgba(89, 89, 89, 1);
+    -moz-box-shadow:    0px 0px 8px 0px rgba(89, 89, 89, 1);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(89, 89, 89, 1);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.vscroll {
+	overflow-y : auto;
+}
+
+.nomargin {
+	margin: 0px;
+}
+
+.notopmargin {
+    margin-top: 0px;
+}
+
+.nopadding {
+	padding: 0px;
+}
+
+/* Activa el Scrool vertical en un div */
+.scrollY {
+    overflow-y: scroll;
+}
+
+/* Permite que un combo box tenga un 100% de ancho */
+.cbofull {
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.mnu_header {
+    padding: 3px 10px !important;
+    font-size: 0.9em !important;
+    color: white !important;
+    border-bottom: 1px dotted #ddd !important;
+    text-align: center !important;
+    background: #3398CC !important;
+    cursor: default !important;
+}
+
+.mnu_item:hover{
+    background: #eee !important;
+}
+
+.wrapper { 
+    position: relative; 
+    background: url(images/body.png) repeat 0 0 !important;
+    min-height: 100%; 
+}
+/*
+.mnu_ajax:hover, .mnu_auth:hover, .mnu_clock:hover, .mnu_filereader:hover, 
+.mnu_filewriter:hover, .mnu_php:hover, .mnu_serverfile:hover, .mnu_button:hover, 
+.mnu_checkbox:hover, .mnu_combobox:hover, .mnu_div:hover, .mnu_divscollection:hover, 
+.mnu_img:hover, .mnu_label:hover, .mnu_listbox:hover, .mnu_menu:hover, 
+.mnu_radiobutton:hover, .mnu_tabcontrol:hover, .mnu_table:hover, .mnu_textbox:hover {
+    background: #eee !important;
+}*/

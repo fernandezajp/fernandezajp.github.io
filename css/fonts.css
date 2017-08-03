@@ -1,0 +1,33 @@
+/* ==========================================================================
+    #Fonts
+========================================================================== */
+@font-face {
+    font-family: 'Klinic Slab Medium';
+    src: url('fonts/klinicslabmedium.eot');
+    src: url('fonts/klinicslabmedium.eot') format('embedded-opentype'), url('fonts/klinicslabmedium.woff') format('woff'), url('fonts/klinicslabmedium.ttf') format('truetype'), url('fonts/klinicslabmedium.svg#KlinicSlabMedium') format('svg');
+}
+@font-face {
+    font-family: 'Klinic Slab Book';
+    src: url('fonts/klinicslabbook.eot');
+    src: url('fonts/klinicslabbook.eot') format('embedded-opentype'), url('fonts/klinicslabbook.woff') format('woff'), url('fonts/klinicslabbook.ttf') format('truetype'), url('fonts/klinicslabbook.svg#KlinicSlabBook') format('svg');
+}
+@font-face {
+    font-family: 'Klinic Slab Bold';
+    src: url('fonts/klinicslabbold.eot');
+    src: url('fonts/klinicslabbold.eot') format('embedded-opentype'), url('fonts/klinicslabbold.woff') format('woff'), url('fonts/klinicslabbold.ttf') format('truetype'), url('fonts/klinicslabbold.svg#KlinicSlabBold') format('svg');
+}
+@font-face {
+    font-family: 'Klinic Slab Bold Italic';
+    src: url('fonts/klinicslabboldit.eot');
+    src: url('fonts/klinicslabboldit.eot') format('embedded-opentype'), url('fonts/klinicslabboldit.woff') format('woff'), url('fonts/klinicslabboldit.ttf') format('truetype'), url('fonts/klinicslabboldit.svg#KlinicSlabBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'Klinic Slab Book Italic';
+    src: url('fonts/klinicslabbookit.eot');
+    src: url('fonts/klinicslabbookit.eot') format('embedded-opentype'), url('fonts/klinicslabbookit.woff') format('woff'), url('fonts/klinicslabbookit.ttf') format('truetype'), url('fonts/klinicslabbookit.svg#KlinicSlabBookItalic') format('svg');
+}
+@font-face {
+    font-family: 'Museo Slab 100';
+    src: url('fonts/museo_slab_100.eot');
+    src: url('fonts/museo_slab_100.eot') format('embedded-opentype'), url('fonts/museo_slab_100.woff') format('woff'), url('fonts/museo_slab_100.ttf') format('truetype'), url('fonts/museo_slab_100.svg#MuseoSlab100') format('svg');
+}

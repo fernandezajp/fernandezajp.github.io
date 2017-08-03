@@ -1,0 +1,12 @@
+.menu {
+    background: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+.menu li a{
+    padding:8px 10px;
+}
+
+.menu ul{
+    min-width:200px
+}

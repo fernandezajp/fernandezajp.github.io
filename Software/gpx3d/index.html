@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+      	<script type="text/javascript" src="./jquery/jquery.min.js"></script>
+        <link rel="stylesheet" href="./jquery/jQuery-contextMenu/jquery.contextMenu.css"/>
+        <script src="./jquery/jQuery-contextMenu/jquery.contextMenu.js"></script>
+        <script src="./jquery/jQuery-contextMenu/jquery.ui.position.js"></script>
+        <link href="./jquery/jqueryuiDialogs/jquery-ui.css" rel="stylesheet">
+        <script type="text/javascript" src="./jquery/jqueryuiDialogs/jquery-ui.js"></script>
+        <script type="text/javascript" src="./jquery/dynatree/jquery.dynatree.min.js" ></script>
+        <link rel="stylesheet" type="text/css" href="./jquery/dynatree/skin/ui.dynatree.css"/>
+        <script type="text/javascript" src="./jquery/sweetalert/sweetalert.min.js"></script>
+        <link   rel="stylesheet" media="all" href="./jquery/sweetalert/sweetalert.css"/>
+        <script type="text/javascript" src="./99lime/js/kickstart.js"></script>
+        <link   rel="stylesheet" media="all" href="./99lime/css/kickstart.css" />
+        <link   rel="stylesheet" media="all" href="./99lime/style.css"/>
+        <script type="text/javascript" src="./three/three.js"></script>
+        <script type="text/javascript" src="./three/Detector.js"></script>
+        <script type="text/javascript" src="./three/cameras/CombinedCamera.js"></script>
+        <script type="text/javascript" src="./three/controls/EventControls.js"></script>
+        <script type="text/javascript" src="./three/controls/OrbitControls.js"></script>
+        <script type="text/javascript" src="./three/controls/TransformControls.js"></script>
+        <script type="text/javascript" src="./three/loaders/STLLoader.js"></script>
+        <script type="text/javascript" src="./three/renderers/Projector.js"></script>
+        <script type="text/javascript" src="./three/renderers/SoftwareRenderer.js"></script>
+        <script type="text/javascript" src="./highcharts/highcharts.js"></script>
+        <script type="text/javascript" src="./highcharts/highcharts-more.js"></script>
+        <script type="text/javascript" src="./canvas-speedometer/xcanvas.js"></script>
+        <script type="text/javascript" src="./canvas-speedometer/tbe.js"></script>
+        <script type="text/javascript" src="./canvas-speedometer/digitaldisplay.js"></script>
+        <script type="text/javascript" src="./canvas-speedometer/speedometer.js"></script>
+        <script type="text/javascript" src="./canvas-speedometer/theme.js"></script>
+        <link rel="stylesheet" href="./leaflet/leaflet.css" />
+        <link rel="stylesheet" href="./leaflet/plugins/leaflet.markercluster/MarkerCluster.css" />
+        <link rel="stylesheet" href="./leaflet/plugins/leaflet.markercluster/MarkerCluster.Default.css" />
+        <link rel="stylesheet" href="./leaflet/plugins/leaflet.mouseposition/L.Control.MousePosition.css" />
+        <script src="./leaflet/leaflet.js"></script>
+        <script src="./leaflet/plugins/leaflet.markercluster/leaflet.markercluster.js"></script>
+        <script src="./leaflet/plugins/leaflet.pip/leaflet-pip.min.js"></script>
+        <script src="./leaflet/plugins/leaflet.mouseposition/L.Control.MousePosition.js"></script>
+        <script src="./leaflet/plugins/leaflet.bouncemarker/bouncemarker.js"></script>
+        <script src="./leaflet/plugins/leaflet.movingmarker/movingmarker.js"></script>
+        <script src="./leaflet/plugins/proj4js/proj4-compressed.js"></script>
+        <script src="./leaflet/plugins/proj4js/proj4leaflet.js"></script>
+        <script type="text/javascript" src="./cesium/Cesium.js"></script>
+        <script type="text/javascript" src="./cesium/cartodb.core.js"></script>
+        <script type="text/javascript" src="./cesium/cesium-cartodb.min.js"></script>
+        <link   rel="stylesheet" href="./cesium/zoomcontrol.css"/>
+        <link   rel="stylesheet" href="./cesium/Widgets/CesiumWidget/CesiumWidget.css"/>
+        <link rel="stylesheet" type="text/css" href="./transitions/component.css" />
+        <link rel="stylesheet" type="text/css" href="./transitions/animations.css" />
+        <script type="text/javascript" src="./transitions/modernizr.custom.js"></script>
+        <link   rel="stylesheet" href="./css/styles.css"/>
+        <link   rel="stylesheet" href="./css/nav.css"/>
+        <link   rel="stylesheet" href="./css/menu.css"/>
+        <link   rel="stylesheet" href="./css/tabs.css"/>
+        <link   rel="stylesheet" href="./css/tables.css"/>
+        <link   rel="stylesheet" href="./css/tabs.css"/>
+        <link   rel="stylesheet" href="./css/app.css"/>
+      	<script src="bundle.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<nav id='toolbar' class="navbar shadow">
+          <ul>
+            <li>
+              <i id='icon' class="icon-map-marker icon-2x title"></i>
+              <a class='title'>GPX Viewer</a>
+            </li>
+          </ul>
+          <ul class="button-bar">
+            <li><a id="cmdNew"><i class="icon-file"></i></a></li>
+            <li><a id="cmdOpenGPXfile"><i class="icon-folder-open-alt"></i></a></li>
+          </ul>
+          <ul class="button-bar">
+            <li><a id="cmdShowLeafletMap" class="customicon"><i class="icon-custom icon-2d"></i></a></li>
+            <li><a id="cmdSelectLeafletMap">Mapa2d</a></li>
+          </ul>
+          <ul class="button-bar">
+            <li><a id="cmdShowCesiumGlobe"><i class="icon-globe"></i></a></li>
+            <li><a id="cmdSelectCesiumMap">Mapa3d</a></li>
+          </ul>
+          <ul class="button-bar">
+            <li><a id="cmdOpenPath3d" class="customicon"><i class="icon-custom icon-3d"></i>&nbsp;Vista 3d</a></li>
+          </ul>
+          <ul class="button-bar">
+            <li><a id="cmdOpenPlayPath" class="customicon"><i class="icon-play"></i></a></li>
+          </ul>
+          <ul class="button-bar">
+            <li><a id="cmdPausePath" class="customicon"><i class="icon-pause"></i></a></li>
+          </ul>
+        </nav>
+        <div id='pt-main' class='pt-perspective'>
+            <div id="mapContainer" class="pt-page">
+                <div id="leaflet"></div>
+            </div>
+            <div id="globeContainer" class="pt-page">
+                <div id="cesium"></div>
+            </div>
+        </div>
+        <div id="floatingPanel">
+            <ul id="tabGeneral" class="tabs left">
+                <li><a id="tbTabRuta" href="#Rutas">Rutas</a></li>
+            </ul>
+            <div id="Rutas" class="tab-content tabpadding autoscroll">
+                <div id="tvRutas" style="text-align: left;text-shadow: 0px 0px 0px"></div>
+            </div>
+        </div>
+        <div id="floatingPlayPanel">
+            <ul id="tabPlay" class="tabs left">
+                <li><a id="tbTabPlay" href="#Play">Elevación</a></li>
+            </ul>
+            <div id="Play" class="tab-content tabpadding autoscroll">
+            </div>
+        </div>
+        <div id="floatingSpeedPanel">
+            <ul id="tabPlay" class="tabs left">
+                <li><a id="tbTabSpeedWidget" href="#speedwidget">Velocidad</a></li>
+            </ul>
+            <div id="speedwidget" class="tab-content tabpadding autoscroll speedometer">
+            </div>
+        </div>
+	</body>
+</html>

@@ -31,14 +31,28 @@
           <a href="./hardware.html">HARDWARE</a>
         </li>
         <li class="right" style="margin-top: 10px">
-          <a href="./software.html">SOFTWARE</a>
+          <a>SOFTWARE</a>
         </li>
         <li class="right" style="margin-top: 10px">
-          <a>INICIO</a>
+          <a href="./index.html">INICIO</a>
         </li>
       </ul>
     </nav>
-    <div id="centerpanel" class="wrapper">
+    <div id="leftpanel">
+      <div class="mnu_item" onclick="loadMDFile('./help/about.md')">Acerca de ...</div>
+      <div class="mnu_header">Sistemas Geograficos</div>
+      <div class="mnu_item" onclick="window.open('./Software/gpx3d/index.html')">Visor de rutas GPS</div>
+
+      <div class="mnu_header">Matematicas</div>
+      <div class="mnu_item" onclick="loadMDFile('./help/button.md')">Numpy, Scipy en Javascript</div>
+
+      <div class="mnu_header">Desarrollo</div>
+      <div class="mnu_item" onclick="loadMDFile('./help/button.md')">Editor Markdown + Latex</div>
+
+      <!--<div class="mnu_header">Petroleo y Gas</div>-->
+      <!--<div class="mnu_item" onclick="loadMDFile('./help/button.md',function(msg){alert(msg)})">Button</div>-->
+      <!--<div class="mnu_item" onclick="loadMDFile('./help/button.md')">Button</div>-->
     </div>
+    <div id="rightpanel" class="wrapper"></div>
 	</body>
 </html>

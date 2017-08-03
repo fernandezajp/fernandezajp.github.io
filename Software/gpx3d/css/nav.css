@@ -1,0 +1,52 @@
+.navbar {
+	background: #2193F3;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navbar li img {
+    display: inline-block;
+    padding: 0.7em 0.7em;
+    line-height: 100%;
+}
+
+.navbar li span {
+    display: inline-block;
+    color: #efefef;
+    padding: 1em 1.3em 1em 0em;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-size: 1.2em;
+}
+
+.title {
+    color: #FFF !important;
+}
+
+ul.button-bar {
+    top: -7px;
+}
+
+.customicon{
+    cursor: default !important;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important;
+}
+
+.icon-custom {
+    width: 16px !important;
+    height: 15px !important;
+}
+
+.icon-2d {
+    background-image: url(../images/2d.png);
+}
+
+.icon-3d {
+    background-image: url(../images/3d.png);
+}

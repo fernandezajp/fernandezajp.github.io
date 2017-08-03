@@ -1,0 +1,15 @@
+table.nolines th{
+	border-bottom:0px;
+}
+
+table.nolines td{
+	border-bottom:0px;
+}
+
+table.nolines input{
+	margin: 0 0 0 0;
+}
+
+.topgravity {
+	vertical-align: top;
+}
